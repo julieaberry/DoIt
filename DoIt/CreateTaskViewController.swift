@@ -15,8 +15,6 @@ class CreateTaskViewController: UIViewController {
     
     // property connecting to the previous view controller - then go to segue and add elements
     //var previousVC = TasksViewController()
-    
-    var previousVC = TasksViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,19 +25,17 @@ class CreateTaskViewController: UIViewController {
 
     @IBAction func addTapped(_ sender: Any) {
         
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
         // Create a Task from the outlet's information
-        let task = Task()
+        // NSManagedObjectContext looking into the database
+        let task = Task(context: context)
         
-        if taskNameTextField != nil {
-            task.name = taskNameTextField.text!
-        }
-
+        task.name = taskNameTextField.text!
         task.important = importantSwitch.isOn
-        
-        // Add the new task to the array in the previous view controller
-        previousVC.tasks.append(task)
-        
-        previousVC.tableView.reloadData()
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        // Save Pop Back
+
         navigationController!.popViewController(animated: true)
         
     }

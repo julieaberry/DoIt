@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreData;
 @import Foundation;
 #endif
 
@@ -139,7 +140,7 @@ SWIFT_CLASS("_TtC4DoIt11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class TasksViewController;
+@class Task;
 @class UILabel;
 @class NSBundle;
 @class NSCoder;
@@ -147,7 +148,7 @@ SWIFT_CLASS("_TtC4DoIt11AppDelegate")
 SWIFT_CLASS("_TtC4DoIt26CompleteTaskViewController")
 @interface CompleteTaskViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified completedTaskLabel;
-@property (nonatomic, strong) TasksViewController * _Nonnull previousVC;
+@property (nonatomic, strong) Task * _Nullable task;
 - (void)viewDidLoad;
 - (IBAction)completeTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -161,11 +162,24 @@ SWIFT_CLASS("_TtC4DoIt24CreateTaskViewController")
 @interface CreateTaskViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified taskNameTextField;
 @property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified importantSwitch;
-@property (nonatomic, strong) TasksViewController * _Nonnull previousVC;
 - (void)viewDidLoad;
 - (IBAction)addTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("Task")
+@interface Task : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Task (SWIFT_EXTENSION(DoIt))
+@property (nonatomic) BOOL important;
+@property (nonatomic, copy) NSString * _Nullable name;
 @end
 
 @class UITableView;
@@ -175,12 +189,14 @@ SWIFT_CLASS("_TtC4DoIt24CreateTaskViewController")
 SWIFT_CLASS("_TtC4DoIt19TasksViewController")
 @interface TasksViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
-@property (nonatomic) NSInteger selectedIndex;
+@property (nonatomic, copy) NSArray<Task *> * _Nonnull tasks;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (IBAction)plusTapped:(id _Nonnull)sender;
+- (void)getTasks;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
