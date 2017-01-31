@@ -1,6 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "0cb249430167586f7943436f1cc24ac2"
-build_time: [539062167, 614111000]
+build_time: [539141603, 919274000]
 inputs:
-  "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/ViewController.swift": [539062098, 0]
+  "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/Task.swift": [539064216, 0]
+  "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/CompleteTaskViewController.swift": [539076843, 0]
+  "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/TasksViewController.swift": [539076843, 0]
   "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/AppDelegate.swift": [539062098, 0]
+  "/Users/julieberry/Desktop/Udemy Apps/DoIt/DoIt/CreateTaskViewController.swift": [539076843, 0]

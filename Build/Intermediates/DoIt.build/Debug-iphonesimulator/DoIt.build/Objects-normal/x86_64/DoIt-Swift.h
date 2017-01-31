@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -138,13 +139,49 @@ SWIFT_CLASS("_TtC4DoIt11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class TasksViewController;
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC4DoIt14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC4DoIt26CompleteTaskViewController")
+@interface CompleteTaskViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified completedTaskLabel;
+@property (nonatomic, strong) TasksViewController * _Nonnull previousVC;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (IBAction)completeTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UISwitch;
+
+SWIFT_CLASS("_TtC4DoIt24CreateTaskViewController")
+@interface CreateTaskViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified taskNameTextField;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified importantSwitch;
+@property (nonatomic, strong) TasksViewController * _Nonnull previousVC;
+- (void)viewDidLoad;
+- (IBAction)addTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC4DoIt19TasksViewController")
+@interface TasksViewController : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic) NSInteger selectedIndex;
+- (void)viewDidLoad;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (IBAction)plusTapped:(id _Nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

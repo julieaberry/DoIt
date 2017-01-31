@@ -1,0 +1,627 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompleteTaskViewController"
+provides-nominal:
+- "C4DoIt26CompleteTaskViewController"
+provides-member:
+- ["C4DoIt26CompleteTaskViewController", ""]
+provides-dynamic-lookup:
+- "previousVC"
+- "completedTaskLabel"
+- "completeTapped"
+- "viewDidLoad"
+depends-top-level:
+- !private "ExtendedGraphemeClusterType"
+- "CompleteTaskViewController"
+- "Task"
+- "TasksViewController"
+- "UIViewController"
+- "UILabel"
+- "AssignmentPrecedence"
+depends-member:
+- ["Ps9AnyObject", "Task"]
+- ["Ps9AnyObject", "TasksViewController"]
+- ["Ps9AnyObject", "completeTapped"]
+- ["Ps9AnyObject", "completedTaskLabel"]
+- !private ["Ps9AnyObject", "important"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "popViewController"]
+- ["Ps9AnyObject", "previousVC"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "selectedIndex"]
+- !private ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "task"]
+- !private ["Ps9AnyObject", "tasks"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Index"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "remove"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "remove"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "remove"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "reloadData"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Task"]
+- ["Ps7CVarArg", "TasksViewController"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "completeTapped"]
+- ["Ps7CVarArg", "completedTaskLabel"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "navigationController"]
+- !private ["Ps7CVarArg", "popViewController"]
+- ["Ps7CVarArg", "previousVC"]
+- !private ["Ps7CVarArg", "reloadData"]
+- !private ["Ps7CVarArg", "remove"]
+- !private ["Ps7CVarArg", "selectedIndex"]
+- !private ["Ps7CVarArg", "tableView"]
+- ["Ps7CVarArg", "task"]
+- !private ["Ps7CVarArg", "tasks"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Comparable", "init"]
+- ["C4DoIt26CompleteTaskViewController", "Task"]
+- ["C4DoIt26CompleteTaskViewController", "TasksViewController"]
+- ["C4DoIt26CompleteTaskViewController", "UILabel"]
+- ["C4DoIt26CompleteTaskViewController", "completeTapped"]
+- ["C4DoIt26CompleteTaskViewController", "completedTaskLabel"]
+- ["C4DoIt26CompleteTaskViewController", "deinit"]
+- ["C4DoIt26CompleteTaskViewController", "init"]
+- !private ["C4DoIt26CompleteTaskViewController", "navigationController"]
+- ["C4DoIt26CompleteTaskViewController", "previousVC"]
+- ["C4DoIt26CompleteTaskViewController", "task"]
+- ["C4DoIt26CompleteTaskViewController", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Task"]
+- ["Ps28CustomDebugStringConvertible", "TasksViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "completeTapped"]
+- ["Ps28CustomDebugStringConvertible", "completedTaskLabel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewController"]
+- ["Ps28CustomDebugStringConvertible", "previousVC"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "task"]
+- !private ["Ps28CustomDebugStringConvertible", "tasks"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Task"]
+- ["Ps23CustomStringConvertible", "TasksViewController"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "completeTapped"]
+- ["Ps23CustomStringConvertible", "completedTaskLabel"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "popViewController"]
+- ["Ps23CustomStringConvertible", "previousVC"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "selectedIndex"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "task"]
+- !private ["Ps23CustomStringConvertible", "tasks"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "Task"]
+- ["Ps9Equatable", "TasksViewController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "completeTapped"]
+- ["Ps9Equatable", "completedTaskLabel"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "popViewController"]
+- ["Ps9Equatable", "previousVC"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "selectedIndex"]
+- !private ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "task"]
+- !private ["Ps9Equatable", "tasks"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "Task"]
+- ["Ps8Hashable", "TasksViewController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "completeTapped"]
+- ["Ps8Hashable", "completedTaskLabel"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "popViewController"]
+- ["Ps8Hashable", "previousVC"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "selectedIndex"]
+- !private ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "task"]
+- !private ["Ps8Hashable", "tasks"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "remove"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "remove"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "remove"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "remove"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "Task"]
+- ["PSo8NSCoding", "TasksViewController"]
+- ["PSo8NSCoding", "completeTapped"]
+- ["PSo8NSCoding", "completedTaskLabel"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "popViewController"]
+- ["PSo8NSCoding", "previousVC"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "selectedIndex"]
+- !private ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "task"]
+- !private ["PSo8NSCoding", "tasks"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "Task"]
+- ["PSo26NSExtensionRequestHandling", "TasksViewController"]
+- ["PSo26NSExtensionRequestHandling", "completeTapped"]
+- ["PSo26NSExtensionRequestHandling", "completedTaskLabel"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewController"]
+- ["PSo26NSExtensionRequestHandling", "previousVC"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedIndex"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "task"]
+- !private ["PSo26NSExtensionRequestHandling", "tasks"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Task"]
+- ["CSo8NSObject", "TasksViewController"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "completeTapped"]
+- ["CSo8NSObject", "completedTaskLabel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "popViewController"]
+- ["CSo8NSObject", "previousVC"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "selectedIndex"]
+- !private ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "task"]
+- !private ["CSo8NSObject", "tasks"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Task"]
+- ["PSo16NSObjectProtocol", "TasksViewController"]
+- ["PSo16NSObjectProtocol", "completeTapped"]
+- ["PSo16NSObjectProtocol", "completedTaskLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "popViewController"]
+- ["PSo16NSObjectProtocol", "previousVC"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "selectedIndex"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "task"]
+- !private ["PSo16NSObjectProtocol", "tasks"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "remove"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "remove"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "remove"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "remove"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "remove"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["C4DoIt4Task", "deinit"]
+- !private ["C4DoIt4Task", "important"]
+- ["C4DoIt4Task", "init"]
+- !private ["C4DoIt4Task", "name"]
+- ["C4DoIt19TasksViewController", "deinit"]
+- ["C4DoIt19TasksViewController", "init"]
+- !private ["C4DoIt19TasksViewController", "selectedIndex"]
+- !private ["C4DoIt19TasksViewController", "tableView"]
+- !private ["C4DoIt19TasksViewController", "tasks"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Task"]
+- ["PSo21UIAppearanceContainer", "TasksViewController"]
+- ["PSo21UIAppearanceContainer", "completeTapped"]
+- ["PSo21UIAppearanceContainer", "completedTaskLabel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "popViewController"]
+- ["PSo21UIAppearanceContainer", "previousVC"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "selectedIndex"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "task"]
+- !private ["PSo21UIAppearanceContainer", "tasks"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "Task"]
+- ["PSo18UIContentContainer", "TasksViewController"]
+- ["PSo18UIContentContainer", "completeTapped"]
+- ["PSo18UIContentContainer", "completedTaskLabel"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "popViewController"]
+- ["PSo18UIContentContainer", "previousVC"]
+- !private ["PSo18UIContentContainer", "selectedIndex"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "task"]
+- !private ["PSo18UIContentContainer", "tasks"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Task"]
+- ["PSo18UIFocusEnvironment", "TasksViewController"]
+- ["PSo18UIFocusEnvironment", "completeTapped"]
+- ["PSo18UIFocusEnvironment", "completedTaskLabel"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "popViewController"]
+- ["PSo18UIFocusEnvironment", "previousVC"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "selectedIndex"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "task"]
+- !private ["PSo18UIFocusEnvironment", "tasks"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "reloadData"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "popViewController"]
+- ["CSo11UIResponder", "Task"]
+- ["CSo11UIResponder", "TasksViewController"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "completeTapped"]
+- ["CSo11UIResponder", "completedTaskLabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "popViewController"]
+- ["CSo11UIResponder", "previousVC"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "selectedIndex"]
+- !private ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "task"]
+- !private ["CSo11UIResponder", "tasks"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "Task"]
+- ["PSo30UIResponderStandardEditActions", "TasksViewController"]
+- ["PSo30UIResponderStandardEditActions", "completeTapped"]
+- ["PSo30UIResponderStandardEditActions", "completedTaskLabel"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationController"]
+- !private ["PSo30UIResponderStandardEditActions", "popViewController"]
+- ["PSo30UIResponderStandardEditActions", "previousVC"]
+- !private ["PSo30UIResponderStandardEditActions", "reloadData"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedIndex"]
+- !private ["PSo30UIResponderStandardEditActions", "tableView"]
+- ["PSo30UIResponderStandardEditActions", "task"]
+- !private ["PSo30UIResponderStandardEditActions", "tasks"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "reloadData"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "selectedIndex"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo20UIScrollViewDelegate", "tasks"]
+- ["PSo16UIStateRestoring", "Task"]
+- ["PSo16UIStateRestoring", "TasksViewController"]
+- ["PSo16UIStateRestoring", "completeTapped"]
+- ["PSo16UIStateRestoring", "completedTaskLabel"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "popViewController"]
+- ["PSo16UIStateRestoring", "previousVC"]
+- !private ["PSo16UIStateRestoring", "selectedIndex"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "task"]
+- !private ["PSo16UIStateRestoring", "tasks"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "reloadData"]
+- ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "selectedIndex"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "tasks"]
+- ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "selectedIndex"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- !private ["PSo19UITableViewDelegate", "tasks"]
+- ["PSo18UITraitEnvironment", "Task"]
+- ["PSo18UITraitEnvironment", "TasksViewController"]
+- ["PSo18UITraitEnvironment", "completeTapped"]
+- ["PSo18UITraitEnvironment", "completedTaskLabel"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "popViewController"]
+- ["PSo18UITraitEnvironment", "previousVC"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "selectedIndex"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "task"]
+- !private ["PSo18UITraitEnvironment", "tasks"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Task"]
+- ["CSo16UIViewController", "TasksViewController"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "completeTapped"]
+- ["CSo16UIViewController", "completedTaskLabel"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "popViewController"]
+- ["CSo16UIViewController", "previousVC"]
+- !private ["CSo16UIViewController", "selectedIndex"]
+- !private ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "task"]
+- !private ["CSo16UIViewController", "tasks"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "remove"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "remove"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Task"]
+- ["Ps9_Hashable", "TasksViewController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "completeTapped"]
+- ["Ps9_Hashable", "completedTaskLabel"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "navigationController"]
+- !private ["Ps9_Hashable", "popViewController"]
+- ["Ps9_Hashable", "previousVC"]
+- !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "selectedIndex"]
+- !private ["Ps9_Hashable", "tableView"]
+- ["Ps9_Hashable", "task"]
+- !private ["Ps9_Hashable", "tasks"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "remove"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C4DoIt26CompleteTaskViewController"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- "SS"
+- "C4DoIt4Task"
+- "C4DoIt19TasksViewController"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "db8b679ff24ed636453df5ab8e976d21"
